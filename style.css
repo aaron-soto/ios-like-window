@@ -109,6 +109,7 @@ body {
 
 .btn3 {
     background-color: #27c93f;
+    cursor: pointer;
 }
 
 #overlay {
