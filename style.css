@@ -81,8 +81,6 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
-
-
 }
 
 .div-btn {
@@ -129,3 +127,16 @@ body {
     opacity: 1;
     pointer-events: all;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .modal.fullscreen .modal-body span{
+        display: block;
+        padding: 5% 6%;
+    }
+
+    .modal.fullscreen .modal-header {
+        padding: 45px 25px;
+    }
+  }
