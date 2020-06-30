@@ -132,6 +132,11 @@ body {
 
 @media only screen and (max-width: 768px) {
 
+    .open-modal {
+        font-size: 1.3rem;
+        padding: 20px 25px;
+    }
+
     .modal.fullscreen .modal-body span{
         display: block;
         padding: 5% 6%;
